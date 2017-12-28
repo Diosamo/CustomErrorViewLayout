@@ -11,7 +11,7 @@ Add it in your root build.gradle at the end of repositories:
 
 	repositories {
 	    maven {
-			url  "https://bintray.com/diosamolee/CustomView" 
+			url  'https://bintray.com/diosamolee/CustomView' 
 	    }
 	}
 第二步：(也可以直接使用下面依赖,如果使用不行,就按步骤来)  
