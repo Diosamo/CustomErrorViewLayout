@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomErrorViewLayout.iml" filepath="$PROJECT_DIR$/CustomErrorViewLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_error_layout/customerrorlayout.iml" filepath="$PROJECT_DIR$/custom_error_layout/customerrorlayout.iml" />
+    </modules>
+  </component>
+</project>
