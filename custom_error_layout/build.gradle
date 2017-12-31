@@ -33,12 +33,3 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
-publish {
-    userOrg = 'diosamolee' // 改成你在 bintray  用户群
-    groupId = 'com.custom_errorview_layou' // 改成你的包名（影响别人引用的第一段）
-    artifactId = 'CustomErrorViewLayout' // 改成你的 Library 名字（影响别人引用的第二段）
-    publishVersion = '1.0' // 版本号 （影响别人引用的第三段）
-    desc = 'this is CustomErrorViewLayout'
-    website = 'https://github.com/Diosamo/CustomErrorViewLayout'
-    repoName = 'CustomView'//，repository name
-}

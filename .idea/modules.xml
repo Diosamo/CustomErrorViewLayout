@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomErrorViewLayout.iml" filepath="$PROJECT_DIR$/CustomErrorViewLayout.iml" />
-      <module fileurl="file://$PROJECT_DIR$/custom_error_layout/customerrorlayout.iml" filepath="$PROJECT_DIR$/custom_error_layout/customerrorlayout.iml" />
+      <module fileurl="file://C:\Users\Administrator\Desktop\GitHub\CustomErrorViewLayout\CustomErrorViewLayout\CustomErrorViewLayout.iml" filepath="C:\Users\Administrator\Desktop\GitHub\CustomErrorViewLayout\CustomErrorViewLayout\CustomErrorViewLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom_error_layout/custom_error_layout.iml" filepath="$PROJECT_DIR$/custom_error_layout/custom_error_layout.iml" />
+      <module fileurl="file://C:\Users\Administrator\Desktop\GitHub\CustomErrorViewLayout\CustomErrorViewLayout\custom_error_layout\customerrorlayout.iml" filepath="C:\Users\Administrator\Desktop\GitHub\CustomErrorViewLayout\CustomErrorViewLayout\custom_error_layout\customerrorlayout.iml" />
     </modules>
   </component>
 </project>

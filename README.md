@@ -10,15 +10,15 @@
 Add it in your root build.gradle at the end of repositories:
 
 	repositories {
-	    maven {
-			url  'https://bintray.com/diosamolee/CustomView' 
-	    }
+	     maven {
+            url  "https://dl.bintray.com/diosamolee/CustomView"
+        }
 	}
 第二步：(也可以直接使用下面依赖,如果使用不行,就按步骤来)  
 Step 2. Add the dependency
 
 		dependencies {
-	       		 compile 'com.custom_errorview_layou:CustomErrorViewLayout:1.0'
+	       		 compile 'com.custom:errorLayout:1.0'
 		}
 
 ### 写入xml
