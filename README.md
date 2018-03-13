@@ -6,16 +6,7 @@
 ![](http://upload-images.jianshu.io/upload_images/9352581-868540e78e76fc82.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 添加的gradle
-第一步：  
-Add it in your root build.gradle at the end of repositories:
-
-	repositories {
-	     maven {
-            url  "https://dl.bintray.com/diosamolee/CustomView"
-        }
-	}
-第二步：(也可以直接使用下面依赖,如果使用不行,就按步骤来)  
-Step 2. Add the dependency
+Add the dependency
 
 		dependencies {
 	       		 compile 'com.custom:errorLayout:1.0'
