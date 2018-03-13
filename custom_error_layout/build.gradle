@@ -3,33 +3,28 @@ apply plugin: 'maven'
 apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 26
-
-
-
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation 'com.android.support:appcompat-v7:26.1.0'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}
+publish {
+    userOrg = 'diosamolee' // 改成你在 bintray  用户群
+    groupId = 'com.custom' // 改成你的包名（影响别人引用的第一段）
+    artifactId = 'errorLayout' // 改成你的 Library 名字（影响别人引用的第二段）
+    publishVersion = '1.0' // 版本号 （影响别人引用的第三段）
+    desc = 'this is customerrorLayout'
+    website = 'https://github.com/Diosamo/CustomView'
+    repoName = 'errorLayout'//，repository name
 }

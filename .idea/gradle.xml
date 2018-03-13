@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/TestCustom" />
             <option value="$PROJECT_DIR$/custom_error_layout" />
           </set>
         </option>

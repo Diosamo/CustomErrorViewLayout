@@ -1,1 +1,1 @@
-include ':custom_error_layout'
+include ':custom_error_layout', ':TestCustom'
