@@ -9,7 +9,7 @@
 Add the dependency
 
 		dependencies {
-	       		 compile 'com.custom:errorLayout:1.0'
+	       		 compile 'com.custom:errorLayout:1.1'
 		}
 
 ### 写入xml
@@ -26,8 +26,17 @@ Add the dependency
     </com.layout.CustomErrorViewLayout>
 ```
 
+	
+
 
 2. 使用下面Activity中的代码
+
+	* 可以通过showError("解释",图片) //改变视图中的图片和提示,主要通过这个方法去设置   !什么状态都可以
+	* showLoading 显示加载中视图
+	* hide() //显示正确  隐藏所有布局显示子布局中的内容
+
+	####建议: 仿照CELMannager 写一个管理者来控制各种视图
+	
 
 ```java
  public class MainActivity extends AppCompatActivity implements CustomErrorViewLayout.CustomErrorViewLayoutClickListenler {

@@ -3,7 +3,6 @@ package com;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -12,6 +11,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.customerrorlayout.R;
+
+import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -167,9 +168,7 @@ public class CustomErrorViewLayout extends FrameLayout implements View.OnClickLi
      * 显示异常视图
      */
     private void showAbnormalView(int resId, String text) {
-        if (currentState==TYPE_LOADING){
-            mProgressBar.setVisibility(GONE);
-        }
+        mProgressBar.setVisibility(GONE);
         mImage.setImageResource(resId);
         mText.setText(text);
         mErrorView.setVisibility(VISIBLE);
